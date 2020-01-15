@@ -2202,7 +2202,7 @@ PrefabInstance:
     - target: {fileID: -4216859302048453862, guid: 24e5dc033a81d3a48916d32ed7444a44,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.100000024
+      value: -0.151
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 24e5dc033a81d3a48916d32ed7444a44,
         type: 3}
@@ -2933,7 +2933,7 @@ PrefabInstance:
     - target: {fileID: -4216859302048453862, guid: 5452eafda2a5aef4fbcb43fa5affd827,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0
+      value: -0.96434224
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 5452eafda2a5aef4fbcb43fa5affd827,
         type: 3}
@@ -2943,7 +2943,7 @@ PrefabInstance:
     - target: {fileID: -4216859302048453862, guid: 5452eafda2a5aef4fbcb43fa5affd827,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 1
+      value: 0.2646585
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 5452eafda2a5aef4fbcb43fa5affd827,
         type: 3}
@@ -2958,13 +2958,18 @@ PrefabInstance:
     - target: {fileID: -4216859302048453862, guid: 5452eafda2a5aef4fbcb43fa5affd827,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
+      value: -149.307
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 5452eafda2a5aef4fbcb43fa5affd827,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -1504981713932161579, guid: 5452eafda2a5aef4fbcb43fa5affd827,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: b9ed1fcf703ac6841a62237d1b52da01, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5452eafda2a5aef4fbcb43fa5affd827, type: 3}
 --- !u!1 &1372127878 stripped
@@ -4231,6 +4236,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -1504981713932161579, guid: 5452eafda2a5aef4fbcb43fa5affd827,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: b9ed1fcf703ac6841a62237d1b52da01, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5452eafda2a5aef4fbcb43fa5affd827, type: 3}
 --- !u!1 &1982016667 stripped
@@ -4549,7 +4559,7 @@ PrefabInstance:
     - target: {fileID: 2768122051122535295, guid: 5be6c3331d826664da5663d9d9136c6c,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0.99999464
       objectReference: {fileID: 0}
     - target: {fileID: 2768122051122535295, guid: 5be6c3331d826664da5663d9d9136c6c,
         type: 3}
@@ -4564,7 +4574,7 @@ PrefabInstance:
     - target: {fileID: 2768122051122535295, guid: 5be6c3331d826664da5663d9d9136c6c,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 1
+      value: 0.0032777125
       objectReference: {fileID: 0}
     - target: {fileID: 2768122051122535295, guid: 5be6c3331d826664da5663d9d9136c6c,
         type: 3}
@@ -4574,7 +4584,7 @@ PrefabInstance:
     - target: {fileID: 2768122051122535295, guid: 5be6c3331d826664da5663d9d9136c6c,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
+      value: -179.624
       objectReference: {fileID: 0}
     - target: {fileID: 2768122051122535295, guid: 5be6c3331d826664da5663d9d9136c6c,
         type: 3}
@@ -4586,6 +4596,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 580356883468082608, guid: 5be6c3331d826664da5663d9d9136c6c,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 4d73179acf2a34a44a58166712431c1a, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5be6c3331d826664da5663d9d9136c6c, type: 3}
 --- !u!1001 &4990395697660716932
