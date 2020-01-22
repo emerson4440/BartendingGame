@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cbd09f5214bce1046b1882647e46bfb1, type: 3}
   m_Name: Vodka
   m_EditorClassIdentifier: 
-  m_Type: Vodka
+  m_Type: 
   m_Amount: 0

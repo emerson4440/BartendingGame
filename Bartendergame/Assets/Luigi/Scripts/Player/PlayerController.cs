@@ -53,10 +53,6 @@ public class PlayerController : MonoBehaviour
 
     private void DetachFromHand(GameObject gameObjectToDetach)
     {
-        //ProtoType
-        gameObjectToDetach.transform.position = gameObjectToDetach.GetComponent<BottleBehavior>().m_originalPosition;
-        gameObjectToDetach.transform.rotation = gameObjectToDetach.GetComponent<BottleBehavior>().m_originalRotation;
-
         gameObjectToDetach.transform.SetParent(null);
         m_AttachedObject = null;       
     }
