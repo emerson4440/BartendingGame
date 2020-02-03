@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 9157606155327785491}
   - component: {fileID: 6276241746692197330}
+  - component: {fileID: 6451929889309098579}
   m_Layer: 0
   m_Name: GreyGoose
   m_TagString: Untagged
@@ -45,6 +46,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_BottleType: {fileID: 11400000, guid: 93a0141881ab68c40847d33524ff1c67, type: 2}
+--- !u!65 &6451929889309098579
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5119037035858364572}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.12910812, y: 0.4211053, z: 0.13253035}
+  m_Center: {x: 0, y: -0.043993488, z: 0}
 --- !u!1001 &9137372264774637847
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -112,7 +126,9 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 8764433650618179555, guid: 3730c727818cca44aaff44ccb178bc33, type: 3}
+    - {fileID: 8764433650618179552, guid: 3730c727818cca44aaff44ccb178bc33, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 3730c727818cca44aaff44ccb178bc33, type: 3}
 --- !u!4 &4761789830087323113 stripped
 Transform:
