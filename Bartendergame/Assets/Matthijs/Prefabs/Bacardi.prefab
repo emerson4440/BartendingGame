@@ -172,7 +172,7 @@ GameObject:
   - component: {fileID: 2636881133534685115}
   m_Layer: 0
   m_Name: Bacardi
-  m_TagString: Untagged
+  m_TagString: Interactable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
