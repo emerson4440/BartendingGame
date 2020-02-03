@@ -168,6 +168,8 @@ GameObject:
   - component: {fileID: 4714687811491438023}
   - component: {fileID: 4057325667907292253}
   - component: {fileID: 8754088651143183647}
+  - component: {fileID: 7901538737005764539}
+  - component: {fileID: 2636881133534685115}
   m_Layer: 0
   m_Name: Bacardi
   m_TagString: Untagged
@@ -233,3 +235,34 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!111 &7901538737005764539
+Animation:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5235548079604323145}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 0}
+  m_Animations: []
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
+--- !u!114 &2636881133534685115
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5235548079604323145}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0354f5f834411044eab672afc0dfc2c6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_PourThreshold: 45
+  m_Origin: {fileID: 4408603496458249784}
+  m_StreamPrefab: {fileID: 4638402757599145398, guid: 658bcabd270ead74387fe5f693e1c3fc,
+    type: 3}

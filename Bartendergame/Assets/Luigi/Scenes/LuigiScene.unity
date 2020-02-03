@@ -375,11 +375,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Mixer
       objectReference: {fileID: 0}
-    - target: {fileID: 819256440373009282, guid: 0ae6b27b27d02ed48b435fb85ee3b82d,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 3481665496130268917, guid: 0ae6b27b27d02ed48b435fb85ee3b82d,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -435,47 +430,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1591133243463378183, guid: 0ae6b27b27d02ed48b435fb85ee3b82d,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -0.11
-      objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 4359287111596897961, guid: 0ae6b27b27d02ed48b435fb85ee3b82d, type: 3}
-    - {fileID: 6011852021494877721, guid: 0ae6b27b27d02ed48b435fb85ee3b82d, type: 3}
-    - {fileID: 6011852021494877726, guid: 0ae6b27b27d02ed48b435fb85ee3b82d, type: 3}
+    m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0ae6b27b27d02ed48b435fb85ee3b82d, type: 3}
---- !u!1 &4359287112718485710 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 819256440373009282, guid: 0ae6b27b27d02ed48b435fb85ee3b82d,
-    type: 3}
-  m_PrefabInstance: {fileID: 4359287112718485709}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &4359287112718485711
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4359287112718485710}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a6974248ea69f4e4cae81ff368510c99, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!65 &4359287112718485712
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4359287112718485710}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.125, y: 0.3, z: 0.125}
-  m_Center: {x: 0, y: -0.06, z: 0}
 --- !u!1001 &5027093822620546948
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -611,6 +567,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8754088651143183647, guid: 7cb574a9005a44a42be8174cb01647fd,
+        type: 3}
+      propertyPath: m_UseGravity
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2636881133534685115, guid: 7cb574a9005a44a42be8174cb01647fd,
+        type: 3}
+      propertyPath: m_PourThreshold
+      value: 150
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7cb574a9005a44a42be8174cb01647fd, type: 3}
