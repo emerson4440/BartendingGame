@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7227475900769228453}
   - component: {fileID: 4193740429039996229}
+  - component: {fileID: 5315188230392855197}
   m_Layer: 0
   m_Name: Cointreau
   m_TagString: Untagged
@@ -45,6 +46,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_BottleType: {fileID: 11400000, guid: ceef619ad21f1094a8074ceea60924d1, type: 2}
+--- !u!65 &5315188230392855197
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7769759265172432303}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.1538623, y: 0.37701154, z: 0.13620983}
+  m_Center: {x: 0, y: -0.028929897, z: 0}
 --- !u!1001 &2204684776439428866
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -112,7 +126,9 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 2218719751063668788, guid: 55664914471fd3f44aa1e5ffb82f2bb2, type: 3}
+    - {fileID: 2218719751063668789, guid: 55664914471fd3f44aa1e5ffb82f2bb2, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 55664914471fd3f44aa1e5ffb82f2bb2, type: 3}
 --- !u!4 &4983320994630374416 stripped
 Transform:

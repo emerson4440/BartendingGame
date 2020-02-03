@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 9134267108355536243}
   - component: {fileID: 3850383458281879487}
+  - component: {fileID: 7916011511746459156}
   m_Layer: 0
   m_Name: MoonShine
   m_TagString: Untagged
@@ -45,6 +46,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_BottleType: {fileID: 11400000, guid: 8214dc35b1ced3a47ba51ccec0e8623e, type: 2}
+--- !u!65 &7916011511746459156
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 949700732935564610}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.16197303, y: 0.40036616, z: 0.15404567}
+  m_Center: {x: 0, y: -0.04744278, z: 0}
 --- !u!1001 &8614429769546984876
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -112,7 +126,9 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 6373810154498285249, guid: af648c78415934549a7b4a388d0245e0, type: 3}
+    - {fileID: 6373810154498285248, guid: af648c78415934549a7b4a388d0245e0, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: af648c78415934549a7b4a388d0245e0, type: 3}
 --- !u!4 &7674833491335944307 stripped
 Transform:

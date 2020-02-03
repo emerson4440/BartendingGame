@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4748689027970849447}
   - component: {fileID: 4714687811491438023}
+  - component: {fileID: 4057325667907292253}
   m_Layer: 0
   m_Name: Bacardi
   m_TagString: Untagged
@@ -45,6 +46,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_BottleType: {fileID: 11400000, guid: 9a2866e3392258d4296ebd3d7ee84674, type: 2}
+--- !u!65 &4057325667907292253
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5235548079604323145}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.15386234, y: 0.48051882, z: 0.13620985}
+  m_Center: {x: 0, y: -0.048286743, z: 0}
 --- !u!1001 &72116620110476620
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -112,7 +126,9 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 5665962793645797099, guid: 8e2e5b038ef77194494f49dc7b6f395f, type: 3}
+    - {fileID: 5665962793645797098, guid: 8e2e5b038ef77194494f49dc7b6f395f, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 8e2e5b038ef77194494f49dc7b6f395f, type: 3}
 --- !u!4 &782230254907945145 stripped
 Transform:
